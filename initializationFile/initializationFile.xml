@@ -1,0 +1,574 @@
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>1</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-25T19:30:32.4333805Z'/>
+		<EventRecordID>5382</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='5676' ThreadID='6840'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>Sysmon_Event_1(ProcessCreate)</Data>
+		<Data Name='UtcTime'>2022-06-25 19:30:32.423</Data>
+		<Data Name='ProcessGuid'>{df655c70-6258-62b7-fe04-000000005201}</Data>
+		<Data Name='ProcessId'>14504</Data>
+		<Data Name='Image'>C:\Users\chrsm\AppData\Local\Temp\_iu14D2N.tmp</Data>
+		<Data Name='FileVersion'>51.1052.0.0</Data>
+		<Data Name='Description'>Setup/Uninstall</Data>
+		<Data Name='Product'>-</Data>
+		<Data Name='Company'>-</Data>
+		<Data Name='OriginalFileName'>-</Data>
+		<Data Name='CommandLine'>"C:\Users\chrsm\AppData\Local\Temp\_iu14D2N.tmp" /SECONDPHASE="C:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\unins000.exe" /FIRSTPHASEWND=$40C76 /verysilent /norestart</Data>
+		<Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+		<Data Name='User'>LAPTOP-ROPR18AK\chrsm</Data>
+		<Data Name='LogonGuid'>{df655c70-4db2-62b7-961b-c80000000000}</Data>
+		<Data Name='LogonId'>0xc81b96</Data>
+		<Data Name='TerminalSessionId'>2</Data>
+		<Data Name='IntegrityLevel'>High</Data>
+		<Data Name='Hashes'>MD5=B6DA80C141C355B147B150A565ADD773,SHA256=5EDD1A302E786D31BF14786E9BAF705F9A2A303213E506821B50B8E45B64FDF5,IMPHASH=F62B90E31ECA404F228FCF7068B00F31</Data>
+		<Data Name='ParentProcessGuid'>{df655c70-6258-62b7-fd04-000000005201}</Data>
+		<Data Name='ParentProcessId'>24272</Data>
+		<Data Name='ParentImage'>C:\Program Files (x86)\FOXIT SOFTWARE\FOXIT READER\unins000.exe</Data>
+		<Data Name='ParentCommandLine'>"C:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\unins000.exe" /verysilent /norestart</Data>
+		<Data Name='ParentUser'>LAPTOP-ROPR18AK\chrsm</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>1</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-25T19:30:32.4333805Z'/>
+		<EventRecordID>5382</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='5676' ThreadID='6840'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>Sysmon_Event_1(ProcessCreate)</Data>
+		<Data Name='UtcTime'>2022-06-25 19:30:32.423</Data>
+		<Data Name='ProcessGuid'>{df655c70-6258-62b7-fe04-000000005201}</Data>
+		<Data Name='ProcessId'>14504</Data>
+		<Data Name='Image'>C:\Users\chrsm\AppData\Local\Temp\_iu14D2N.tmp</Data>
+		<Data Name='FileVersion'>51.1052.0.0</Data>
+		<Data Name='Description'>Setup/Uninstall</Data>
+		<Data Name='Product'>-</Data>
+		<Data Name='Company'>-</Data>
+		<Data Name='OriginalFileName'>-</Data>
+		<Data Name='CommandLine'>"C:\Users\chrsm\AppData\Local\Temp\_iu14D2N.tmp" /SECONDPHASE="C:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\unins000.exe" /FIRSTPHASEWND=$40C76 /verysilent /norestart</Data>
+		<Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+		<Data Name='User'>LAPTOP-ROPR18AK\chrsm</Data>
+		<Data Name='LogonGuid'>{df655c70-4db2-62b7-961b-c80000000000}</Data>
+		<Data Name='LogonId'>0xc81b96</Data>
+		<Data Name='TerminalSessionId'>2</Data>
+		<Data Name='IntegrityLevel'>High</Data>
+		<Data Name='Hashes'>MD5=B6DA80C141C355B147B150A565ADD773,SHA256=5EDD1A302E786D31BF14786E9BAF705F9A2A303213E506821B50B8E45B64FDF5,IMPHASH=F62B90E31ECA404F228FCF7068B00F31</Data>
+		<Data Name='ParentProcessGuid'>{df655c70-6258-62b7-fd04-000000005201}</Data>
+		<Data Name='ParentProcessId'>24272</Data>
+		<Data Name='ParentImage'>C:\Program Files (x86)\FOXIT SOFTWARE\FOXIT READER\unins000.exe</Data>
+		<Data Name='ParentCommandLine'>"C:\PROGRAM FILES (X86)\FOXIT SOFTWARE\FOXIT READER\unins000.exe" /verysilent /norestart</Data>
+		<Data Name='ParentUser'>LAPTOP-ROPR18AK\chrsm</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>3</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>3</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-25T19:31:16.1444537Z'/>
+		<EventRecordID>5389</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='5676' ThreadID='6824'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>Sysmon_Event_3(NetworkConnect)</Data>
+		<Data Name='UtcTime'>2022-06-25 19:31:14.909</Data>
+		<Data Name='ProcessGuid'>{df655c70-4174-62b7-eb03-000000000000}</Data>
+		<Data Name='ProcessId'>4</Data>
+		<Data Name='Image'>System</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+		<Data Name='Protocol'>udp</Data>
+		<Data Name='Initiated'>true</Data>
+		<Data Name='SourceIsIpv6'>false</Data>
+		<Data Name='SourceIp'>192.168.1.5</Data>
+		<Data Name='SourceHostname'>LAPTOP-ROPR18AK</Data>
+		<Data Name='SourcePort'>137</Data>
+		<Data Name='SourcePortName'>netbios-ns</Data>
+		<Data Name='DestinationIsIpv6'>false</Data>
+		<Data Name='DestinationIp'>20.62.223.48</Data>
+		<Data Name='DestinationHostname'>-</Data>
+		<Data Name='DestinationPort'>137</Data>
+		<Data Name='DestinationPortName'>netbios-ns</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>3</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>3</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-25T19:31:16.1444537Z'/>
+		<EventRecordID>5389</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='5676' ThreadID='6824'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>Sysmon_Event_3(NetworkConnect)</Data>
+		<Data Name='UtcTime'>2022-06-25 19:31:14.909</Data>
+		<Data Name='ProcessGuid'>{df655c70-4174-62b7-eb03-000000000000}</Data>
+		<Data Name='ProcessId'>4</Data>
+		<Data Name='Image'>System</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+		<Data Name='Protocol'>udp</Data>
+		<Data Name='Initiated'>true</Data>
+		<Data Name='SourceIsIpv6'>false</Data>
+		<Data Name='SourceIp'>192.168.1.5</Data>
+		<Data Name='SourceHostname'>LAPTOP-ROPR18AK</Data>
+		<Data Name='SourcePort'>137</Data>
+		<Data Name='SourcePortName'>netbios-ns</Data>
+		<Data Name='DestinationIsIpv6'>false</Data>
+		<Data Name='DestinationIp'>20.62.223.48</Data>
+		<Data Name='DestinationHostname'>-</Data>
+		<Data Name='DestinationPort'>137</Data>
+		<Data Name='DestinationPortName'>netbios-ns</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>4</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>4</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2021-12-07T09:45:32.9657366Z'/>
+		<EventRecordID>24012</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='3120' ThreadID='2992'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>WIN-J23NIGGP1Q6.sysmon_set.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='UtcTime'>2021-12-07 09:45:32.959</Data>
+		<Data Name='State'>Started</Data>
+		<Data Name='Version'>13.24</Data>
+		<Data Name='SchemaVersion'>4.70</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>4</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>4</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2021-12-07T09:45:32.9657366Z'/>
+		<EventRecordID>24012</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='3120' ThreadID='2992'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>WIN-J23NIGGP1Q6.sysmon_set.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='UtcTime'>2021-12-07 09:45:32.959</Data>
+		<Data Name='State'>Started</Data>
+		<Data Name='Version'>13.24</Data>
+		<Data Name='SchemaVersion'>4.70</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>5</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>5</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-25T19:31:15.7946375Z'/>
+		<EventRecordID>5387</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='5676' ThreadID='6840'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>C:\Users</Data>
+		<Data Name='UtcTime'>2022-06-25 19:31:15.794</Data>
+		<Data Name='ProcessGuid'>{df655c70-622a-62b7-f904-000000005201}</Data>
+		<Data Name='ProcessId'>21544</Data>
+		<Data Name='Image'>C:\Users\chrsm\AppData\Roaming\Foxit Software\Addon\Foxit PDF Reader\FoxitPDFReaderUpdater.exe</Data>
+		<Data Name='User'>LAPTOP-ROPR18AK\chrsm</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>5</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>5</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-25T19:31:15.7946375Z'/>
+		<EventRecordID>5387</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='5676' ThreadID='6840'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>C:\Users</Data>
+		<Data Name='UtcTime'>2022-06-25 19:31:15.794</Data>
+		<Data Name='ProcessGuid'>{df655c70-622a-62b7-f904-000000005201}</Data>
+		<Data Name='ProcessId'>21544</Data>
+		<Data Name='Image'>C:\Users\chrsm\AppData\Roaming\Foxit Software\Addon\Foxit PDF Reader\FoxitPDFReaderUpdater.exe</Data>
+		<Data Name='User'>LAPTOP-ROPR18AK\chrsm</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>16</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>16</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-23T10:34:48.9731251Z'/>
+		<EventRecordID>1083</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='20972' ThreadID='23380'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-21-3153833558-3459030340-3832526456-1001'/>
+	</System>
+	<EventData>
+		<Data Name='UtcTime'></Data>
+		<Data Name='Configuration'></Data>
+		<Data Name='ConfigurationFileHash'></Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+		<EventID>16</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>16</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-06-23T10:34:48.9731251Z'/>
+		<EventRecordID>1083</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='20972' ThreadID='23380'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>LAPTOP-ROPR18AK</Computer>
+		<Security UserID='S-1-5-21-3153833558-3459030340-3832526456-1001'/>
+	</System>
+	<EventData>
+		<Data Name='UtcTime'></Data>
+		<Data Name='Configuration'></Data>
+		<Data Name='ConfigurationFileHash'></Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>7</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>7</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:28.817593300Z'/>
+		<EventRecordID>485206881</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:28.815</Data>
+		<Data Name='ProcessGuid'>{3BF36828-1E44-622A-EEA3-04000000D101}</Data>
+		<Data Name='ProcessId'>10964</Data>
+		<Data Name='Image'>C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe</Data>
+		<Data Name='ImageLoaded'>C:\Windows\System32\cryptbase.dll</Data>
+		<Data Name='FileVersion'>10.0.14393.0 (rs1_release.160715-1616)</Data>
+		<Data Name='Description'>Base cryptographic API DLL</Data>
+		<Data Name='Product'>Microsoft® Windows® Operating System</Data>
+		<Data Name='Company'>Microsoft Corporation</Data>
+		<Data Name='OriginalFileName'>cryptbase.dll</Data>
+		<Data Name='Hashes'>MD5=51FCB0FDEFCB9A3E4A1DC8C8673BC63C,SHA256=63A0E1A76B7ABCF56E44B548568649FFB6B5609402746D48A4DC77CCED20F5FE</Data>
+		<Data Name='Signed'>true</Data>
+		<Data Name='Signature'>Microsoft Windows</Data>
+		<Data Name='SignatureStatus'>Valid</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>7</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>7</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:28.816995700Z'/>
+		<EventRecordID>485206880</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:28.815</Data>
+		<Data Name='ProcessGuid'>{3BF36828-1E44-622A-EEA3-04000000D101}</Data>
+		<Data Name='ProcessId'>10964</Data>
+		<Data Name='Image'>C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe</Data>
+		<Data Name='ImageLoaded'>C:\Windows\System32\rsaenh.dll</Data>
+		<Data Name='FileVersion'>10.0.14393.2969 (rs1_release.190503-1820)</Data>
+		<Data Name='Description'>Microsoft Enhanced Cryptographic Provider</Data>
+		<Data Name='Product'>Microsoft® Windows® Operating System</Data>
+		<Data Name='Company'>Microsoft Corporation</Data>
+		<Data Name='OriginalFileName'>rsaenh.dll</Data>
+		<Data Name='Hashes'>MD5=B6E99FD898E948657373BB02708C7C00,SHA256=90476029BD7AB0FEC53AAE567AE53BC0B09C7C5C8C7B8F19485BA872B74ED591</Data>
+		<Data Name='Signed'>true</Data>
+		<Data Name='Signature'>Microsoft Windows</Data>
+		<Data Name='SignatureStatus'>Valid</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>10</EventID>
+		<Version>3</Version>
+		<Level>4</Level>
+		<Task>10</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:28.796728400Z'/>
+		<EventRecordID>485206843</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:28.796</Data>
+		<Data Name='SourceProcessGUID'>{3BF36828-A942-6202-9E00-00000000D101}</Data>
+		<Data Name='SourceProcessId'>3576</Data>
+		<Data Name='SourceThreadId'>5884</Data>
+		<Data Name='SourceImage'>C:\Windows\system32\conhost.exe</Data>
+		<Data Name='TargetProcessGUID'>{3BF36828-1E44-622A-EEA3-04000000D101}</Data>
+		<Data Name='TargetProcessId'>10964</Data>
+		<Data Name='TargetImage'>C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe</Data>
+		<Data Name='GrantedAccess'>0x1fffff</Data>
+		<Data Name='CallTrace'>C:\Windows\SYSTEM32\ntdll.dll+a6134|C:\Windows\SYSTEM32\ConhostV2.dll+5ca7|C:\Windows\SYSTEM32\ConhostV2.dll+774b|C:\Windows\SYSTEM32\ConhostV2.dll+a8ef|C:\Windows\System32\KERNEL32.DLL+84d4|C:\Windows\SYSTEM32\ntdll.dll+51781</Data>
+		<Data Name='SourceUser'>NT AUTHORITY\SYSTEM</Data>
+		<Data Name='TargetUser'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>11</EventID>
+		<Version>2</Version>
+		<Level>4</Level>
+		<Task>11</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:28.764352100Z'/>
+		<EventRecordID>485206829</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:28.762</Data>
+		<Data Name='ProcessGuid'>{3BF36828-A951-6202-D100-00000000D101}</Data>
+		<Data Name='ProcessId'>1108</Data>
+		<Data Name='Image'>C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe</Data>
+		<Data Name='TargetFilename'>C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\WinEventLog\Security</Data>
+		<Data Name='CreationUtcTime'>2021-06-03 18:15:33.573</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>12</EventID>
+		<Version>2</Version>
+		<Level>4</Level>
+		<Task>12</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:42.145404800Z'/>
+		<EventRecordID>485209010</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='EventType'>CreateKey</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:42.144</Data>
+		<Data Name='ProcessGuid'>{3BF36828-A906-6202-2600-00000000D101}</Data>
+		<Data Name='ProcessId'>2892</Data>
+		<Data Name='Image'>C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe</Data>
+		<Data Name='TargetObject'>HKLM\System\CurrentControlSet\Services\Tcpip\Parameters</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>13</EventID>
+		<Version>2</Version>
+		<Level>4</Level>
+		<Task>13</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-02-01T20:58:30.470733600Z'/>
+		<EventRecordID>150622279</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2992' ThreadID='3220'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='EventType'>SetValue</Data>
+		<Data Name='UtcTime'>2022-02-01 20:58:30.468</Data>
+		<Data Name='ProcessGuid'>{3BF36828-4B49-61E8-2700-00000000CF01}</Data>
+		<Data Name='ProcessId'>2840</Data>
+		<Data Name='Image'>C:\Windows\system32\DFSRs.exe</Data>
+		<Data Name='TargetObject'>HKLM\System\CurrentControlSet\Services\DFSR\Parameters\Volumes\D370F6FF-0000-0000-0000-100000000000\Volume Configuration File</Data>
+		<Data Name='Details'>\\.\C:\System Volume Information\DFSR\Config\Volume_D370F6FF-0000-0000-0000-100000000000.XML</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>17</EventID>
+		<Version>1</Version>
+		<Level>4</Level>
+		<Task>17</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:28.769312400Z'/>
+		<EventRecordID>485206834</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='EventType'>CreatePipe</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:28.762</Data>
+		<Data Name='ProcessGuid'>{3BF36828-A941-6202-9A00-00000000D101}</Data>
+		<Data Name='ProcessId'>5276</Data>
+		<Data Name='PipeName'>&lt;Anonymous Pipe&gt;</Data>
+		<Data Name='Image'>C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>18</EventID>
+		<Version>1</Version>
+		<Level>4</Level>
+		<Task>18</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:50:28.769131400Z'/>
+		<EventRecordID>485206833</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2900' ThreadID='3240'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-dc-128.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='EventType'>ConnectPipe</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:28.762</Data>
+		<Data Name='ProcessGuid'>{3BF36828-A941-6202-9A00-00000000D101}</Data>
+		<Data Name='ProcessId'>5276</Data>
+		<Data Name='PipeName'>&lt;Anonymous Pipe&gt;</Data>
+		<Data Name='Image'>C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>22</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>22</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:51:01.153969400Z'/>
+		<EventRecordID>296951526</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2316' ThreadID='1916'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-host-987.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2022-03-10 15:50:58.321</Data>
+		<Data Name='ProcessGuid'>{00000000-0000-0000-0000-000000000000}</Data>
+		<Data Name='ProcessId'>4136</Data>
+		<Data Name='QueryName'>win-dc-128.attackrange.local</Data>
+		<Data Name='QueryStatus'>0</Data>
+		<Data Name='QueryResults'>::ffff:10.0.1.14;</Data>
+		<Data Name='Image'>&lt;unknown process&gt;</Data>
+		<Data Name='User'>ATTACKRANGE\REED_SCHMIDT</Data>
+	</EventData>
+	<System>
+		<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385F-C22A-43E0-BF4C-06F5698FFBD9}'/>
+		<EventID>23</EventID>
+		<Version>5</Version>
+		<Level>4</Level>
+		<Task>23</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x8000000000000000</Keywords>
+		<TimeCreated SystemTime='2022-03-10T15:51:03.022634500Z'/>
+		<EventRecordID>296951557</EventRecordID>
+		<Correlation/>
+		<Execution ProcessID='2316' ThreadID='3040'/>
+		<Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+		<Computer>win-host-987.attackrange.local</Computer>
+		<Security UserID='S-1-5-18'/>
+	</System>
+	<EventData>
+		<Data Name='RuleName'>-</Data>
+		<Data Name='UtcTime'>2022-03-10 15:51:03.021</Data>
+		<Data Name='ProcessGuid'>{B81B27B7-E8BD-6228-7A00-00000000CF01}</Data>
+		<Data Name='ProcessId'>3600</Data>
+		<Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+		<Data Name='Image'>C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe</Data>
+		<Data Name='TargetFilename'>C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\WinEventLog\Microsoft-Windows-Sysmon_Operational</Data>
+		<Data Name='Hashes'>MD5=675B2D00D2BD6004C82157C4C05445A8,SHA256=80666221FFEFBC64FEA59B4BE3AB1A5762950F368FCE1D4A1903AC0BD218E617,IMPHASH=00000000000000000000000000000000</Data>
+		<Data Name='IsExecutable'>false</Data>
+		<Data Name='Archived'>false - insufficient disk space</Data>
+	</EventData>
+</Event>
