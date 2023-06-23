@@ -1,3 +1,4 @@
 # evtx_To_CSV_ExportTool (ETCExp - v1)
 
-The enclosed script in this Github repository, is a python analyzing scripting tool dubbed “evtx_To_CSV_ExportTool”  (ETCExp - v1), which caters for the parsing of voluminous Sysmon logs in .evtx format, and therefore contributes to the convertion of Windows system monitor logs to turnkey datasets, ready to be fed in .csv format into ML models.
+The enclosed script in this Github repository, is a python analyzing scripting tool dubbed “evtx_To_CSV_ExportTool”  (ETCExp - v1), which caters for the parsing of voluminous Sysmon logs in .evtx format, and therefore contributes to the convertion of Windows system monitor logs to turnkey datasets, ready to be fed in .csv format into ML models. This portable and versatile chunk of code, is designed to overcome all the hurdles involved in the creation of turnkey unlabeled or labeled datasets in CSV format through the manipulation of EVTX Sysmon logs, as it consists a software solution able to automatize this task. This contribution is key to the Lateral Movement (LM) community given that, no pertinent Sysmon derived datasets exist, obstructing research on ML-oriented LM detection.
+
