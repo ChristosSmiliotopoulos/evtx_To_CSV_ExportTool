@@ -8,4 +8,6 @@ More specifically, Sysmon is a multipurpose service of the MS Windows OS environ
 
 The essence of ETCExp is to provide a lightweight, portable, easily configurable and above all OS-independent command line (of IDE executable) tool that helps incident response teams and researchers to parse and make massive EVTX log files compatible to be implemented into ML algorithms. The tool can process large EVTX files very quickly; for instance, the conversion of a 1.41 GB (2.7M samples) corpus takes around 30 min.
 
+From an OS version’s perspective, ETCExp can be executed on any mainstream platform, namely Windows 11, macOS Ventana v13.0 and Ubuntu v22.04 LTS.
+
 # Setup
