@@ -26,4 +26,6 @@ The source code, along with the following:
 
 		- README.md
 
+can be downloaded from the tool's Github link, https://github.com/ChristosSmiliotopoulos/evtx_To_CSV_ExportTool/blob/master/ETCExp_Tool-V1.py.
+
 # Setup
