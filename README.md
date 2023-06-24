@@ -46,3 +46,5 @@ In order to re-build the source code contained in this repository there are two 
   		- pip install statistics
 
   		- pip install numpy
+
+		- To run the script via terminal / cmd / PowerShell execute the following command depending your OS and your .evtx file location:
