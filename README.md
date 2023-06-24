@@ -29,3 +29,20 @@ The source code, along with the following:
 can be downloaded from the tool's Github link, https://github.com/ChristosSmiliotopoulos/evtx_To_CSV_ExportTool/blob/master/ETCExp_Tool-V1.py.
 
 # Setup
+
+In order to re-build the source code contained in this repository there are two possible ways:
+
+- Load it to the IDE of your choice (PyCharm or VSCode are recommended, due to their undeniable characteristics that could not be ommitted, including among the many benefits smart code completion, on-the-fly error inspection with highlighting and code refactoring). Import according to your IDE manual the referenced libraries in the main.py file, choose the relevant to your system Python version (Python 3.9.1 was the version upon which ETCExp was created) and try the tool to the .evtx file of your choice.
+
+- On the other hand, if no IDE is chose and the reproduction of the script is going to be done via terminal, cmd or PowerShell then keep in mind the steps that follow:	
+		- python setup.py install
+		
+		- pip install importlib
+
+		- pip install xml.etree.ElementTree
+
+  		- pip install pandas
+
+  		- pip install statistics
+
+  		- pip install numpy
