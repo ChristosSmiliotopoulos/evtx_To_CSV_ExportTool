@@ -10,4 +10,20 @@ The essence of ETCExp is to provide a lightweight, portable, easily configurable
 
 From an OS version’s perspective, ETCExp can be executed on any mainstream platform, namely Windows 11, macOS Ventana v13.0 and Ubuntu v22.04 LTS.
 
+The source code, along with the following: 
+
+		- Supporting Python Scripts, 
+		
+		- intializationFile, 
+		
+		- Demo Exported .csv Files, 
+		
+		- LMD Datasets Collection.rar, 
+		
+		- Large .xml files manipulation Windows Tool.rar,
+
+		- RBPolicy.rar and
+
+		- README.md
+
 # Setup
