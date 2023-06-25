@@ -75,10 +75,10 @@ In order to re-build the source code contained in this repository there are two 
 
 	- Pay Attention!!! Only the first \\<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> and the last \\</Event> tags should be retained to the .xml file, for the script to produce the right .csv file.
 
-	- Also the tags <Data Name='Version'> should be replace with <Data Name='Version2'> and '</EventData><System>', should be replace with:
+	- Also the tags `<Data Name='Version'>` should be replace with `<Data Name='Version2'>` and `</EventData><System>`, should be replace with:
  
 				</EventData>
 
    				<System>, without the quotes included. 
 
-	- and "/f [D [D [D" lines should be deleted too.
+	- and `/f [D [D [D` lines should be deleted too.
