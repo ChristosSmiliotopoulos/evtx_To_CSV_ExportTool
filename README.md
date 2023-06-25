@@ -59,3 +59,7 @@ In order to re-build the source code contained in this repository there are two 
 		- The .xml file extracted through Sysmon via the .evtx original file is not recognised as a native xml tree that's why actions needed in order to be comptatible with this chunk of code, as follows:
 
     			- At first visit, https://codebeautify.org/xmlviewer#copy, upload or copy the contents of the .xml file on it and add the tree-based structure in your file. When finished extract and download the file.
+
+			- Especially when the .xml file is rather large (>21Mb) the online tree-based structure  implementation with https://codebeautify.org/xmlviewer#copy is not recommended as this will end into "Import file Error!!".
+
+			- Sublime Text 3 should be used as follows: i. With the Sublime Text 3 opened, hit #ctrl+shift+p and search for "Package Control: Install Package" utility. ii. In the new window that follows type "Indent XML" to install the dedicated package. iii. After that with ctrl+k,f buttons the desired tree view is achieved.
