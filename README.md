@@ -65,7 +65,7 @@ In order to re-build the source code contained in this repository there are two 
 		- Sublime Text 3 should be used as follows:
 			- i. With the Sublime Text 3 opened, hit #ctrl+shift+p and search for "Package Control: Install Package" utility.
 
-    			- ii. In the new window that follows type "Indent XML" to install the dedicated package.
+			- ii. In the new window that follows type "Indent XML" to install the dedicated package.
 
 			- iii. After that with ctrl+k,f buttons the desired tree view is achieved.
 
