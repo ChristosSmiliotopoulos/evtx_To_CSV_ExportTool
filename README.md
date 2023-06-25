@@ -75,6 +75,8 @@ In order to re-build the source code contained in this repository there are two 
 
 	- Pay Attention!!! Only the first `<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">` and the last `</Event>` tags should be retained to the .xml file, for the script to produce the right .csv file.
 
+ 	- Pay Attention!!! Just after the first `<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">` of the manipulated - extracted .xml file, the 574 lines included in the enclosed with this repository initializationFile.xml, should be added in order to initialize the ETCExp_Tool-V1.py to create from the first lines of the .xml parsing all the necessaries for the whole process column ids. (The necessity of this step is obvious in the enclosed .mp4 video.)
+
 	- Also the tags `<Data Name='Version'>` should be replace with `<Data Name='Version2'>` and `</EventData><System>`, should be replace with:
  
 		`</EventData>`
