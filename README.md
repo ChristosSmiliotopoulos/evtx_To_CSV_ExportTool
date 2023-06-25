@@ -82,3 +82,5 @@ In order to re-build the source code contained in this repository there are two 
    		`<System>`, without the quotes included. 
 
 	- and `/f [D [D [D` lines should be deleted too.
+
+ 	- After that minor changes the script is ready and fully functional to produce the desired Panda's dataframe.
