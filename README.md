@@ -73,7 +73,7 @@ In order to re-build the source code contained in this repository there are two 
  
 	- Before you import the .xml file to be parsed into a Pandas dataframe with this script, the tags that follow need to be deleted (so that to be in the right level of the xml's "family" hierarchy). The tags are "<?xml version="1.0" encoding="utf-8" standalone="yes"?>", "<Events>", "</Events>", "<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">" and  "</Event>".
 
-	- Pay Attention!!! Only the first "<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">" and the last "</Event>" tags should be retained to the .xml file, for the script to produce the right .csv file.
+	- Pay Attention!!! Only the first ""<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">"" and the last ""</Event>"" tags should be retained to the .xml file, for the script to produce the right .csv file.
 
 	- Also the tags <Data Name='Version'> should be replace with <Data Name='Version2'> and "</EventData><System>"", should be replace with:
 			- "</EventData>
