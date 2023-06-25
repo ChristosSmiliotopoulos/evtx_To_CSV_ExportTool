@@ -54,20 +54,20 @@ In order to re-build the source code contained in this repository there are two 
 
   - It should be noted that with this initial version of the ETCExp_Tool-V1.py, the user needs to execute two pre-processing steps regarding .evtx files. Those steps are thoroughly presented as comments within the ETCExp_Tool-V1.py script, however they are also presented in bried below and within the attached video at the bottom of this page:
  
-		- At first extract the .evtx file, in the Windows-based .xml format that is provided with the utilities of Windows Event Viewer.
+	- At first extract the .evtx file, in the Windows-based .xml format that is provided with the utilities of Windows Event Viewer.
  
-		- The .xml file extracted through Sysmon via the .evtx original file is not recognised as a native xml tree that's why actions needed in order to be comptatible with this chunk of code, as follows:
+	- The .xml file extracted through Sysmon via the .evtx original file is not recognised as a native xml tree that's why actions needed in order to be comptatible with this chunk of code, as follows:
 
-    			- At first visit, https://codebeautify.org/xmlviewer#copy, upload or copy the contents of the .xml file on it and add the tree-based structure in your file. When finished extract and download the file.
+		- At first visit, https://codebeautify.org/xmlviewer#copy, upload or copy the contents of the .xml file on it and add the tree-based structure in your file. When finished extract and download the file.
 
-			- Especially when the .xml file is rather large (>21Mb) the online tree-based structure  implementation with https://codebeautify.org/xmlviewer#copy is not recommended as this will end into "Import file Error!!".
+		- Especially when the .xml file is rather large (>21Mb) the online tree-based structure  implementation with https://codebeautify.org/xmlviewer#copy is not recommended as this will end into "Import file Error!!".
 
-			- Sublime Text 3 should be used as follows:
-				- i. With the Sublime Text 3 opened, hit #ctrl+shift+p and search for "Package Control: Install Package" utility.
+		- Sublime Text 3 should be used as follows:
+			- i. With the Sublime Text 3 opened, hit #ctrl+shift+p and search for "Package Control: Install Package" utility.
 
-    				- ii. In the new window that follows type "Indent XML" to install the dedicated package.
+    			- ii. In the new window that follows type "Indent XML" to install the dedicated package.
 
-				- iii. After that with ctrl+k,f buttons the desired tree view is achieved.
+			- iii. After that with ctrl+k,f buttons the desired tree view is achieved.
 
 	- PAY ATTENTION!!! There is however an easier and versatile way to add the tree structure to the extracted .xml file if you are Windows user. Download the enclosed in this repository Large .xml files manipulation Windows Tool.rar. Load the file, hit the appropriate tree-structure command and you file is ready to be parsed to the .csv equivalent.
 
