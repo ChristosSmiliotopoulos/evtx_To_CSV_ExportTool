@@ -52,7 +52,7 @@ In order to re-build the source code contained in this repository there are two 
 
   			- Windows/macOS/Linux: python3 ETCExp_Tool-V1.py
 
-  - It should be noted that with this initial version of the ETCExp_Tool-V1.py, the user needs to execute two pre-processing steps regarding .evtx files. Those steps are thoroughly presented as comments within the ETCExp_Tool-V1.py script, however they are also presented in bried below and within the attached video at the bottom of this page:
+- It should be noted that with this initial version of the ETCExp_Tool-V1.py, the user needs to execute two pre-processing steps regarding .evtx files. Those steps are thoroughly presented as comments within the ETCExp_Tool-V1.py script, however they are also presented in bried below and within the attached video at the bottom of this page:
  
 	- At first extract the .evtx file, in the Windows-based .xml format that is provided with the utilities of Windows Event Viewer.
  
