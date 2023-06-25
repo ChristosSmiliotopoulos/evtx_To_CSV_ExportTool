@@ -70,5 +70,14 @@ In order to re-build the source code contained in this repository there are two 
 			- iii. After that with ctrl+k,f buttons the desired tree view is achieved.
 
 	- PAY ATTENTION!!! There is however an easier and versatile way to add the tree structure to the extracted .xml file if you are Windows user. Download the enclosed in this repository Large .xml files manipulation Windows Tool.rar. Load the file, hit the appropriate tree-structure command and you file is ready to be parsed to the .csv equivalent.
+ 
+	- Before you import the .xml file to be parsed into a Pandas dataframe with this script, the tags that follow need to be deleted (so that to be in the right level of the xml's "family" hierarchy). The tags are "<?xml version="1.0" encoding="utf-8" standalone="yes"?>", "<Events>", "</Events>", "<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">" and  "</Event>".
 
-			
+	- Pay Attention!!! Only the first "<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">" and the last "</Event>" tags should be retained to the .xml file, for the script to produce the right .csv file.
+
+	- Also the tags <Data Name='Version'> should be replace with <Data Name='Version2'> and "</EventData><System>"", should be replace with:
+		"</EventData>
+
+    		<System>", without the quotes included. 
+
+	- and "/f[D[D[D" lines should be deleted too.
