@@ -77,8 +77,8 @@ In order to re-build the source code contained in this repository there are two 
 
 	- Also the tags `<Data Name='Version'>` should be replace with `<Data Name='Version2'>` and `</EventData><System>`, should be replace with:
  
-				</EventData>
+		`</EventData>`
 
-   				<System>, without the quotes included. 
+   		`<System>`, without the quotes included. 
 
 	- and `/f [D [D [D` lines should be deleted too.
