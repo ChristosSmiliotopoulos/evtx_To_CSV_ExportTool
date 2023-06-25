@@ -62,4 +62,13 @@ In order to re-build the source code contained in this repository there are two 
 
 			- Especially when the .xml file is rather large (>21Mb) the online tree-based structure  implementation with https://codebeautify.org/xmlviewer#copy is not recommended as this will end into "Import file Error!!".
 
-			- Sublime Text 3 should be used as follows: i. With the Sublime Text 3 opened, hit #ctrl+shift+p and search for "Package Control: Install Package" utility. ii. In the new window that follows type "Indent XML" to install the dedicated package. iii. After that with ctrl+k,f buttons the desired tree view is achieved.
+			- Sublime Text 3 should be used as follows:
+				- i. With the Sublime Text 3 opened, hit #ctrl+shift+p and search for "Package Control: Install Package" utility.
+
+    				- ii. In the new window that follows type "Indent XML" to install the dedicated package.
+
+				- iii. After that with ctrl+k,f buttons the desired tree view is achieved.
+
+	- PAY ATTENTION!!! There is however an easier and versatile way to add the tree structure to the extracted .xml file if you are Windows user. Download the enclosed in this repository Large .xml files manipulation Windows Tool.rar. Load the file, hit the appropriate tree-structure command and you file is ready to be parsed to the .csv equivalent.
+
+			
