@@ -85,6 +85,3 @@ In order to re-build the source code contained in this repository there are two 
 
  	- After that minor changes the script is ready and fully functional to produce the desired Panda's dataframe.
  
-https://github.com/ChristosSmiliotopoulos/evtx_To_CSV_ExportTool/assets/46369046/23f32af8-e159-4aa8-9e84-42c87dd0e3d3
-
-
