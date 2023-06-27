@@ -89,3 +89,6 @@ In order to re-build the source code contained in this repository there are two 
  
 https://github.com/ChristosSmiliotopoulos/evtx_To_CSV_ExportTool/assets/46369046/b8671d64-5443-4a26-bf8b-a135c4ec4a7d
 
+https://github.com/ChristosSmiliotopoulos/evtx_To_CSV_ExportTool/assets/46369046/fad4a070-c7b8-4005-bcf5-41e673ef8b99
+
+https://github.com/ChristosSmiliotopoulos/evtx_To_CSV_ExportTool/assets/46369046/e02c0f32-2a09-4a30-9161-3414d4171776
